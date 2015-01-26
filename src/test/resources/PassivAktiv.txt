@@ -1,0 +1,35 @@
+# true if the example sentence is in the passive voice
+# false if it is in the active voice
+Der Mann wird verletzt. | true
+Jemand verletzt den Mann. | false
+Der Mann ist verletzt worden. | true
+Jemand hat den Mann verletzt. | false
+Der Mann wurde verletzt. | true
+Jemand verletzte den Mann. | false
+Der Mann war verletzt worden. | true
+Jemand hatte den Mann verletzt. | false
+Der Mann wird verletzt werden. | true
+Jemand wird den Mann verletzen. | false
+Der Mann wird verletzt worden sein. | true
+Jemand wird den Mann verletzt haben. | false
+Der Mann ist verletzt. | true
+Der Mann ist verletzt gewesen. | true
+Ich wurde selber nach Berlin gefahren. | true
+Ich fuhr selber nach Berlin. | false
+Mein Vater fuhr mich nach Berlin. | false
+Ich wurde (von meinem Vater) nach Berlin gefahren. | true
+Der Lehrer erklärte uns das Passiv. | false
+Das Passiv wurde uns (vom Lehrer) erklärt. | true
+Ich habe mich versteckt. | false
+Er schläft. | false
+Der Mann wird (von jemandem) verletzt worden sein. |true
+Wir tanzten (gestern) viel. | false
+Es/Gestern wurde viel getanzt. | true
+Hier darf nicht geraucht werden. | true
+Man darf hier nicht rauchen. | false
+Die menschliche Kommunikation ist idR. geprägt von Verständnisschwierigkeiten. | true
+Dazu werden speziell entwickelte Messinstrumente, meist in Form von Fragebögen, eingesetzt. | true
+Menschen verstehen sich idR. schwer. | false
+ForscherInnen setzen dazu speziell entwickelte Messinstrumente, meist in Form von Fragebögen ein. | false
+Im folgenden Abschnitt werden mögliche Methoden zur Erfassung der Lebensqualität vorgestellt und es wird aufgezeigt, dass Interviews dafür als ein geeigneteres Instrument empfunden werden. | true
+Im folgenden Abschnitt werde ich mögliche Methoden zur Erfassung der Lebensqualität vorstellen und ich werde zeigen, dass Interviews dafür als ein geeigneteres Instrument empfunden werden. | true
