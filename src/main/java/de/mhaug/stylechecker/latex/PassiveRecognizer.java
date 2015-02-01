@@ -1,4 +1,4 @@
-package de.mhaug.ba.stylechecker.latex;
+package de.mhaug.stylechecker.latex;
 
 public class PassiveRecognizer {
 	public static final float PASSIVE_SENTENCE_TRESHOLD = 0.85f;

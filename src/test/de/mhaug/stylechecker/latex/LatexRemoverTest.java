@@ -1,10 +1,8 @@
-package de.mhaug.ba.stylechecker.latex;
+package de.mhaug.stylechecker.latex;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import de.mhaug.ba.stylechecker.latex.LatexRemover;
 
 public class LatexRemoverTest {
 	private LatexRemover instance;
