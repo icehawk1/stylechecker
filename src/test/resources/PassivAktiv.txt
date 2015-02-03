@@ -1,16 +1,16 @@
 # true if the example sentence is in the passive voice
 # false if it is in the active voice
-Der Mann wird verletzt. | true
-Jemand verletzt den Mann. | false
-Der Mann ist verletzt worden. | true
-Jemand hat den Mann verletzt. | false
+Der Mann, z.B. Harald, wird verletzt. | true
+Jemand verletzt bspw. den Mann. | false
+Der Mann, genannt Godric Griffyndor, ist verletzt worden. | true
+Jemand hat den Mann, genannt Godric Griffyndor, verletzt. | false
 Der Mann wurde verletzt. | true
 Jemand verletzte den Mann. | false
 Der Mann war verletzt worden. | true
 Jemand hatte den Mann verletzt. | false
 Der Mann wird verletzt werden. | true
 Jemand wird den Mann verletzen. | false
-Der Mann wird verletzt worden sein. | true
+Helga Hufflepuff wird verletzt worden sein. | true
 Jemand wird den Mann verletzt haben. | false
 Der Mann ist verletzt. | true
 Der Mann ist verletzt gewesen. | true
@@ -18,7 +18,7 @@ Ich wurde selber nach Berlin gefahren. | true
 Ich fuhr selber nach Berlin. | false
 Mein Vater fuhr mich nach Berlin. | false
 Ich wurde (von meinem Vater) nach Berlin gefahren. | true
-Der Lehrer erklärte uns das Passiv. | false
+Max Mustermann erklärte uns das Passiv. | false
 Das Passiv wurde uns (vom Lehrer) erklärt. | true
 Ich habe mich versteckt. | false
 Er schläft. | false
