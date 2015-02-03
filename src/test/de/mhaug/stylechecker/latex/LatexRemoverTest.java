@@ -103,16 +103,4 @@ public class LatexRemoverTest {
 		Assert.assertEquals(expected, actual);
 	}
 
-	@Test
-	public void testRemoveLatexCode_mathe() {
-		// Prepare
-		String input = "Ich bin ein Satz mit Mathezeugs $raus \\$ damit$ und \\[ das auch \\] weg";
-		String expected = "Ich bin ein Satz mit Environment \\begin{zeugs} \nDie Zeile muss raus\\end{zeugs}";
-
-		// Operate
-		String actual = instance.removeLatexCode(input);
-
-		// Check
-		Assert.assertEquals(expected, actual);
-	}
 }
