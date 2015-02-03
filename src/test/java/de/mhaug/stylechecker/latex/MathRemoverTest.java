@@ -42,6 +42,28 @@ public class MathRemoverTest {
 		Assert.assertEquals(expected, instance.startsWith(regex));
 	}
 
+	@Test
+	public void testStartsWith_withLookbehind() {
+		String input = "abcdef";
+		String regex = "(?<!b)c";
+		boolean expected = false;
+		instance = new MathRemover(input);
+		instance.position = 2;
+
+		Assert.assertEquals(expected, instance.startsWith(regex));
+	}
+
+	@Test
+	public void testStartsWith_withLookahead() {
+		String input = "abcdef";
+		String regex = "d(?=e)";
+		boolean expected = true;
+		instance = new MathRemover(input);
+		instance.position = 3;
+
+		Assert.assertEquals(expected, instance.startsWith(regex));
+	}
+
 	@Test(timeout = 5 * 1000)
 	public void testRemoveLatexCode_mathe() {
 		// Prepare
