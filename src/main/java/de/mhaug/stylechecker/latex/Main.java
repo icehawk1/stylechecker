@@ -1,4 +1,4 @@
-package stylechecker;
+package de.mhaug.stylechecker.latex;
 
 import java.io.File;
 import java.io.FileNotFoundException;
